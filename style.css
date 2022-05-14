@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
+  font-family: 'Helvetica';
 }
 
 .content {
@@ -72,4 +73,36 @@ button {
   background-color: #3882F6;
   padding: 8px 16px 8px 16px;
   border-radius: 15%;
+}
+
+.square-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.big-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.square {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: #3882F6;
+  height: 128px;
+}
+
+.square, .subtext {
+  width: 128px;
+}
+
+.images {
+  justify-content: center;
+  padding-bottom: 106px;
 }
