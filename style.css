@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   margin: 0px;
   font-family: 'Helvetica';
+  min-width: 1080px;
 }
 
 .content {
@@ -27,17 +28,20 @@ ul {
   padding-top: 16px;
 }
 
-.logo {
+.logo, .bottom-header {
   font-size: 24px;
+}
+
+.logo, .bottom-header, button {
   color: #F9FAF8;
 }
 
-.header-links, .hero p , .placeholder, button{
+.header-links, .hero p , .placeholde, .bottom-text {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-.header, .hero {
+.header, .hero, .bottom {
   padding-left: 128px;
   padding-right: 128px;
 }
@@ -70,9 +74,13 @@ ul {
 }
 
 button {
-  background-color: #3882F6;
-  padding: 8px 16px 8px 16px;
-  border-radius: 15%;
+  padding: 8px 24px 8px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#top-button {
+  border-style: none;
 }
 
 .square-text {
@@ -130,4 +138,28 @@ button {
 
 .quote-container {
   padding: 32px 194px 32px 194px;
+}
+
+.action-box, button {
+  background-color: #3882F6;
+}
+
+#bottom-button {
+  border-color:#F9FAF8;
+  border-width: 3px;
+  border-style: solid;
+  margin-left: auto;
+}
+
+.bottom {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.action-box {
+  display: flex;
+  padding: 32px 64px 32px 64px;
+  justify-content: space-between;
+  gap: 64px;
+  border-radius: 10px;
 }
