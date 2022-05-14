@@ -106,3 +106,28 @@ button {
   justify-content: center;
   padding-bottom: 106px;
 }
+
+.lower {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0px;
+  text-align: center;
+}
+
+.author {
+  color: #1F2937;
+  font-weight: bold;
+  text-align:right;
+}
+
+.quote-container {
+  padding: 32px 194px 32px 194px;
+}
